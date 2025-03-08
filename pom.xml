@@ -66,6 +66,17 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+
+		<!-- Lettuce Client (Default) for Redis -->
+		<dependency>
+			<groupId>io.lettuce.core</groupId>
+			<artifactId>lettuce-core</artifactId>
+		</dependency>
+
 		<!-- Spring Boot Starter Thymeleaf (if you need Thymeleaf template engine in future) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
