@@ -12,6 +12,11 @@ public class ProductService {
     private RedisTemplate<String, Object> redisTemplate;
 
     public void addProductToCache(String key,Product product){
+        // api -> data pipeline ->
+        // id -> 1, 8 ,9
+
+
+
         redisTemplate.opsForValue().set(key,product);
 
     }
